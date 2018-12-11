@@ -152,8 +152,8 @@ class DGB_List_Table extends WP_List_Table {
 	 */
 	public function get_bulk_actions() {
 		$actions = array(
-			'bulk-enable'  => esc_html__( 'Enable', 'disable-google-fonts' ),
-			'bulk-disable' => esc_html__( 'Disable', 'disable-google-fonts' ),
+			'bulk-enable'  => esc_html__( 'Enable', 'disable-gutenberg-blocks' ),
+			'bulk-disable' => esc_html__( 'Disable', 'disable-gutenberg-blocks' ),
 		);
 
 		return $actions;
